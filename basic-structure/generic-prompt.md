@@ -54,6 +54,8 @@ Which one to use will depend on the use case:
 - **Salida esperada:** “[Resultado de muestra]”
 ~~~
 
+Reference: see my GitHub repository  [markdown-syntaxis](https://github.com/aleferrariuy/markdown-syntaxis)
+
 For everyday use cases for an average person, outside of a demanding context, natural language options for simple queries, and Markdown if a query needs to be made more complex, are more than sufficient.
 
 When the volume or complexity of data increases, when the required level of analysis is greater, when automation or linking to external agents or applications is included, then it is an opportune time to use XML (using tags) or JSON (not using tags) to provide order and portability to the information.
