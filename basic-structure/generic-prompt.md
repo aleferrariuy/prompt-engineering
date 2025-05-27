@@ -1,3 +1,5 @@
+## Plain Text format
+
 
 ## Markdown format
 ~~~
@@ -27,3 +29,49 @@
 - **Salida esperada:** “[Resultado de muestra]”
 ~~~
 
+## XML format
+~~~
+<prompt>
+  <rol>
+  </rol>
+  <contexto>
+    <ítem1>...</ítem1>
+    <ítem2>...</ítem2>
+  </contexto>
+  <tarea>
+    <ítem1>...</ítem1>
+    <ítem2>...</ítem2>
+  </tarea>
+  <restricciones>
+    <ítem1>...</ítem1>
+    <ítem2>...</ítem2>
+  </restricciones>
+  <formato de salida>
+    <ítem1>...</ítem1>
+    <ítem2>...</ítem2>
+  </formato de salida>
+  <ejemplo>
+  </ejemplo>
+</prompt>
+~~~
+
+## JSON format
+~~~
+{
+  rol:
+  contexto: ["...","..."],
+  tarea: [
+    "...",
+    "..."
+  ],
+  restricciones: [
+    "...",
+    "..."
+  ],
+  formato de salida: [
+    "...",
+    "..."
+  ],
+  ejemplo: ["..."],
+}
+~~~
